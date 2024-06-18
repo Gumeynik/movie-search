@@ -1,0 +1,70 @@
+main {
+    display: flex; /* Добавляем flexbox для центрирования по вертикали */
+    justify-content: center; /* Выравнивание по горизонтали */
+    align-items: center; /* Выравнивание по вертикали */
+    height: 100vh; /* Высота родительского элемента */
+  }
+  
+  .container {
+    width: 600px;
+    height: auto;
+    margin: auto 0; 
+    display: flex;
+    justify-content: center;
+  }
+  
+  input {
+    width: 300px;
+    height: 27px;
+    margin-left: 0px;
+    border: 1px solid #090000;
+    padding-left: 5px;
+  }
+  
+  button {
+    margin-left: 30px;
+    width: 100px;
+    height: 27px;
+    background-color: rgb(0, 183, 255);
+    color: white;
+  }
+  button:hover{
+    background-color: #333;
+  }
+  .movie-list{
+    margin-left: 30px;
+    display: flex;
+    width: 550px;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .movie-list:hover{
+    background-color: #6b6b6b;
+  }
+  .poster{
+    margin-top: 15px;
+    margin-left: 30px;
+    height: 120px;
+    width: 70px;
+  }
+
+.description{
+  margin-top: 15px;
+  margin-left: 30px;
+}
+.title{
+  font-size: 30px;
+}
+.year{
+  margin-top: 6px;
+  color: rgb(0, 183, 255);
+}
+.type{
+  text-transform: capitalize;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.link{
+  display: inline-block; vertical-align: top;
+}
