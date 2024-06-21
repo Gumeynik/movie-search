@@ -1,8 +1,43 @@
+body{
+  font-size: 20px;
+}
 #film-card{
     display: flex;
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 200px;
   }
-  #film-description{
-    margin-left: 30px;
+  #film-poster{
+    margin-top: 20px;
   }
+  .film-description{
+    margin-top: 20px;
+    margin-left:30px;
+
+  }
+  #film-title{
+    margin-top: -5px;
+    font-size: 30px;
+  }
+#film-plot{
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin:30px auto ;
+}
+.left{
+  width: 30px;
+  height: 30px;
+}
+.btn-back{
+  border: none;
+  background-color: white;
+  color: #333;
+  font-size: 30px;
+  cursor: pointer;
+  display: flex;
+  margin-left: 200px;
+  margin-top: 30px;
+  text-decoration: none; 
+}

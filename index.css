@@ -1,8 +1,8 @@
 main {
-    display: flex; /* Добавляем flexbox для центрирования по вертикали */
-    justify-content: center; /* Выравнивание по горизонтали */
-    align-items: center; /* Выравнивание по вертикали */
-    height: 100vh; /* Высота родительского элемента */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
   }
   
   .container {
@@ -67,4 +67,10 @@ main {
 }
 .link{
   display: inline-block; vertical-align: top;
+}
+.error{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+font-size: 25px;
 }
