@@ -9,7 +9,7 @@ btnNode.addEventListener('click', search);
 
 function search() {
     const film = inputNode.value;
-    fetch(`http://www.omdbapi.com/?s=${film}&apikey=d1a26e34`)
+    fetch(`https://www.omdbapi.com/?s=${film}&apikey=d1a26e34`)
         .then(response => response.json())
         .then(json => {
             if (json.Response==='False') {

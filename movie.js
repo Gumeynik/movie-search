@@ -2,7 +2,7 @@ window.onload = function() {
     const urlParams = new URLSearchParams(window.location.search);
     const imdbID = urlParams.get('id');
 console.log(imdbID)
-    fetch(`http://www.omdbapi.com/?i=${imdbID}&apikey=d1a26e34`)
+    fetch(`https://www.omdbapi.com/?i=${imdbID}&apikey=d1a26e34`)
         .then(response => response.json())
         .then(movie => {
             document.getElementById('film-card').innerHTML = `
